@@ -117,7 +117,17 @@
             </table>
           </div><br>
 
-          <div class="container">
+          <div class="container"></div>
+          <div class="button" aria-label="six button group">
+            <button type="button" class="btn btn-outline-primary">K</button>
+            <button type="button" class="btn btn-outline-primary">A</A></button>
+            <button type="button" class="btn btn-outline-primary">N</button>
+            <button type="button" class="btn btn-outline-primary">D</button>
+            <button type="button" class="btn btn-outline-primary">I</button>
+            <button type="button" class="btn btn-outline-primary">M</button>
+          </div><br>
+
+          <div class="container"></div>
             <label>Button Groups</label>
             <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
               <div class="btn-group me-2" role="group" aria-label="First group">
@@ -133,6 +143,38 @@
                 <button type="button" class="btn btn-danger">D</button>
               </div>
             </div><br>
+        
+            <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+              <div class="btn-group" role="group">
+                <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                  <li><a class="dropdown-item" href="plane.html">Link to Plane page</a></li>
+                  <li><a class="dropdown-item" href="train.html">Link to Train page</a></li>
+                </ul>
+              </div>
+            </div><br><br>
+
+            <form>
+              <div class="mb-3">
+                <label for="inputEmail" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" required>
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+              <div class="mb-3">
+                <label for="inputAnimal" class="form-label">Animal</label>
+                <input type="text" class="form-control" id="inputAnimal" placeholder="Enter your animal" required>
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="newsletterCheck">
+                <label class="form-check-label" for="newsletterCheck">Sign up for newsletter?</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form><br>
+
+            
+        
         
 </body>
 </html>
